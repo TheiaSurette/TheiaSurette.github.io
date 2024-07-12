@@ -7,6 +7,7 @@ import { Graphic } from "@/components/graphic";
 import { ChevronDown, Scroll } from "lucide-react";
 import { ScrollDown } from "@/components/scroll-down";
 import AboutMe from "@/components/about-me";
+import Experience from "@/components/experience";
 
 const totalHeight = 500;
 
@@ -19,6 +20,7 @@ export default function Home() {
         <NavMenu />
         <ScrollDown />
         <AboutMe />
+
         <div className="fixed left-0 w-full bottom-12 container right-0 z-20">
           <ModeToggle />
         </div>

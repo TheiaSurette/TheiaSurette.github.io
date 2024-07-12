@@ -61,7 +61,7 @@ export function NavMenu() {
       </div>
       <div className="md:hidden">
         <Sheet>
-          <SheetTrigger>
+          <SheetTrigger asChild>
             <Button
               size="icon"
               variant="outline"
